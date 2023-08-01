@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+html,body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font: 14px;
+    background-color: #F6F6F6;
+}
+
+.floatFix {
+    clear: both;
+}
+
+
+.top {
+    max-width: 50rem;
+    height: 7.5%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    user-select: none;
+}
+
+.logo>img {
+    height: 60%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: .5rem;
+    height: 2.5rem;
+}
+
+.search input {
+    height: 1.8rem;
+    width: 7rem;
+    outline: none;
+    border: 0;
+    padding: 0;
+    border-radius: 2rem 0 0 2rem;
+    float: left;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    color: #858585;
+    user-select: none;
+}
+
+.search button {
+    background-color: #5DA8FF;
+    outline: none;
+    border: 0;
+    color: white;
+    height: 1.8rem;
+    width: 3.2rem;
+    user-select: none;
+    padding: 0;
+    border-radius: 0 2rem 2rem 0;
+    float: right;
+}
+
+.search img {
+    width: 1.2rem;
+    margin-top: .2rem;
+    margin-right: .2rem;
+}
+
+.search button:active {
+    background-color: #298dff;
+}
+
+#theme {
+    float: right;
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+#theme>img {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+@keyframes theme {
+    form {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+
+
+.body{
+    width: 100%;
+    position: relative;
+    height: 92.5%;
+}
+
+.list{
+    max-width: 50rem;
+    width: 94%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding: .5rem 2rem;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 1rem;
+
+}
+.listtool{
+    color: #949494;
+}
+.listtoolpin{
+    color: red;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    font-size: 1.4rem;
+}
+.listtooldate{
+    font-size: .7rem;
+    margin-left: 1rem;
+    display: inline;
+}
+.listtooleye{
+    float:right;
+}
+.listtoolmore{
+    float: right;
+    margin-left: 1.2rem;
+}
+.listcontent{
+    color: #949494;
+    line-height: 1.6rem;
+    font-size: .9rem;
+}

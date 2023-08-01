@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<dbhost>localhost</dbhost>
+<dbuser>leton</dbuser>
+<dbpass>1234</dbpass>
+<dbport>3306</dbport>
+<adminname>user</adminname>
+<adminpass>1234</adminpass>
+<tips>1</tips>
+</root>
